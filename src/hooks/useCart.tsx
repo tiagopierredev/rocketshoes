@@ -73,7 +73,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           JSON.stringify(newListWithProductRemoved)
         );
       } else {
-        toast.error("Erro na remoção do produto");
+        throw new Error();
       }
     } catch {
       toast.error("Erro na remoção do produto");
@@ -88,7 +88,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       const responseStock = await api.get<Stock>(`stock/${productId}`);
 
       if (amount < 1) {
-        return;
+        throw new Error();
       } else if (amount <= responseStock.data.amount) {
         const newCartList = cart.map((product) =>
           product.id === productId ? { ...product, amount } : product
