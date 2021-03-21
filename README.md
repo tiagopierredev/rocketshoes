@@ -58,3 +58,11 @@ $ yarn dev
   <li>Styled Components</li>
 </ul>
 
+## License
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made with
+💜 by <a href="https://github.com/tiagopierre" target="_blank">Tiago Pierre</a>
+
