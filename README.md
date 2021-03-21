@@ -25,6 +25,29 @@
   <li>Display of error messages.</li>
 </ul>
 
+<h2>Starting</h2>
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+```bash
+# Clone this project
+$ git clone https://github.com/tiagopierre/challenge03-react-ignite-rocketshoes.git
+
+# Access
+$ cd challenge03-react-ignite-rocketshoes
+
+# Install dependencies
+$ yarn
+
+# Run fake Api
+$ yarn server
+
+# Run the project
+$ yarn dev
+
+# The server will initialize in the <http://localhost:8080>
+```
+
 <h2>Technologies used in application</h2>
 
 <ul>
