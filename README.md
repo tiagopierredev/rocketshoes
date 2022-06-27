@@ -66,3 +66,4 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 Made with
 💜 by <a href="https://github.com/tiagopierre" target="_blank">Tiago Pierre</a>
 
+# web-vendas-store
